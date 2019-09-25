@@ -3,8 +3,10 @@ package com.example.jeudescouleurs;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -23,6 +25,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void accesScores (View view) {
-        startActivity(new Intent(this, page_scores.class));
+        startActivity(new Intent(this, Page_scores.class));
+    }
+
+    public void accesJeu (View view) {
+        startActivity(new Intent(this, Page_jeu.class));
     }
 }

@@ -45,7 +45,7 @@
                 android:layout_weight="1"
                 android:layout_marginLeft="25dip"
                 android:layout_marginRight="25dip"
-                android:onClick="addText"
+                android:onClick="accesJeu"
                 />
             <Button
                 android:layout_width="wrap_content"
